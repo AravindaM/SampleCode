@@ -13,19 +13,17 @@ Install the dependencies using
 
 ## Usage
 
-* Update the `app.conf` file under the `config` folder.
-
-* Run Visa API calls using the command below:
-
-	$ sbt test
-
-You would need to credentials of following vdp applications inorder to run the tests.
+###### Update the `app.conf` file under the `config` folder. You will need credentials of following vdp applications inorder to run the tests.
 
 * [Visa Direct](https://developer.visa.com/products/visa_direct/reference)
 * [CyberSource Payments](https://developer.visa.com/products/cybersource/reference)
 
-For more information about get started with the APIs check the following guide.
+###### Run Visa API calls using the command below:
+
+	$ sbt test
+
+###### For more information about get started with the APIs check the following guide.
 
 * [Getting Started with Visa Developer](https://developer.visa.com/vdpguide#get-started-overview)
 
-The sample code provided reads the credentials from configuration file as plain text. As a best practice we recommend you to store the credentials in an encrypted form and decrypt while using them.
+###### The sample code provided reads the credentials from configuration file as plain text. As a best practice we recommend you to store the credentials in an encrypted form and decrypt while using them.
