@@ -1,6 +1,6 @@
 package cybersource
 
-import libs.{ConfgUtils, HttpClientResponse, VisaApiClient}
+import libs.{ConfigUtils, HttpClientResponse, VisaApiClient}
 import org.junit.runner.RunWith
 import org.scalatest.{BeforeAndAfter, FunSuite}
 import org.scalatest.junit.JUnitRunner
@@ -14,7 +14,7 @@ import scala.collection.immutable.HashMap
 class PaymentAuthorization extends FunSuite with BeforeAndAfter {
 
   test("Create a credit card authorization") {
-    val config = ConfgUtils.load(Option("./config/app.conf"))
+    val config = ConfigUtils.load(Option("./config/app.conf"))
     val apiClient = new VisaApiClient()
     val reqBody =
       s"""{

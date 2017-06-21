@@ -2,8 +2,8 @@
 
 ## Prerequisites
 
-### [Scala] (https://www.scala-lang.org/download/install.html)
-### [Scala Build Tool - sbt] (http://www.scala-sbt.org/0.13/docs/Setup.html)
+### [Scala](https://www.scala-lang.org/download/install.html)
+### [Scala Build Tool - sbt](http://www.scala-sbt.org/0.13/docs/Setup.html)
 
 ## Installation
 

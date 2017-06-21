@@ -5,7 +5,7 @@ import com.typesafe.config.ConfigFactory
 /**
   * Created by Aravinda on 5/16/2017.
   */
-object ConfgUtils {
+object ConfigUtils {
 
   def load(filePath: Option[String] = None) = {
 

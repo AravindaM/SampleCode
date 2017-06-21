@@ -12,7 +12,7 @@ import org.apache.commons.codec.binary.Hex
   */
 object XPayUtils {
 
-  private val config = ConfgUtils.load(Option("./config/app.conf"))
+  private val config = ConfigUtils.load(Option("./config/app.conf"))
 
   def generateXpaytoken(resourcePath: String, queryString: String, requestBody: String) = {
     val timestamp: Long = timeStamp

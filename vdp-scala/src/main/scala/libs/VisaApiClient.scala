@@ -21,7 +21,7 @@ import scala.util.Random
   */
 class VisaApiClient {
 
-  val config = ConfgUtils.load(Option("./config/app.conf"))
+  val config = ConfigUtils.load(Option("./config/app.conf"))
 
   def doXPayRequest(baseUri: String, resourcePath: String, queryParams: String, requestBody: String,
                     methodType: String, headers: HashMap[String, String]) = {
